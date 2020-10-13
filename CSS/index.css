@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: lightpink;
+}
+.head {
+  position: -webkit-sticky;
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0px;
+}
+.head a,
+button {
+  text-decoration: none;
+  color: white;
+}
+#logo {
+  cursor: pointer;
+  color: white;
+}
+#logo:hover {
+  color: rgb(49, 184, 218);
+}
+.nav-links {
+  list-style: none;
+}
+.nav-links li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+.nav-links li a {
+  transition: all 0.3s ease 0s;
+}
+.nav-links li a:hover {
+  color: rgb(49, 184, 218);
+}
+.top button {
+  padding: 9px 20px;
+  background-color: rgb(49, 184, 218);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.top button:hover {
+  background-color: rgba(49, 184, 218, 0.7);
+}
